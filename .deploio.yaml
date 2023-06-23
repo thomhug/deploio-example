@@ -1,6 +1,6 @@
-size: micro
-port: 5678
+size: mini
+port: 5679
 replicas: 3
 env:
   - name: RESPONSE_TEXT
-    value: "Hello from Tom's nick nick nick 14:36 Go deplo.io app!!"
+    value: "Hello from Tom's Go deplo.io app!"
