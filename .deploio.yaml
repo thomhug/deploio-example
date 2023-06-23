@@ -1,0 +1,6 @@
+size: micro
+port: 5678
+replicas: 2
+env:
+  - name: RESPONSE_TEXT
+    value: "Hello from Tom's Go deplo.io app!"
