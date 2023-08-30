@@ -14,7 +14,7 @@ const (
 	responseEnvKey = "RESPONSE_TEXT"
 	portEnvKey     = "PORT"
 	realIPHeader   = "X-Forwarded-For"
-	defaultPort    = 8080
+	defaultPort    = 80
 )
 
 func main() {
