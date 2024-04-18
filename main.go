@@ -31,7 +31,7 @@ func main() {
 
 		log.Printf("%s on %s request from %s\n", req.Method, req.URL.Path, ip)
 		io.WriteString(w, os.Getenv(responseEnvKey)+"\n")
-		io.WriteString(w, os.Getenv(replicas)+"\n")
+		io.WriteString(w, os.Getenv("REPLICAS")+"\n")
 
 	})
 
